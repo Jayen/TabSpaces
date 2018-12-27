@@ -17,7 +17,8 @@ body {
 }
 
 #logo {
-    margin: 20%;
+    margin-left: 10%;
+    margin-right: 20%;
     color: var(--light-shade);
     font-size: 36px;
     font-weight: 700;
