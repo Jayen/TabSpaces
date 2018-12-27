@@ -1,0 +1,73 @@
+:root {
+  --main-brand-colour: #7463E9;
+  --light-accent: #A3A7C9;
+  --light-shade: #F5F2EE;
+  --dark-accent: #7D597D;
+  --dark-shade: #24316A;
+
+  --primary: #7463e9;
+  --info: #23316a;
+  --success: #58987e;
+  --warning: #d58846;
+  --danger: #f44336;
+}
+
+body {
+  font-family: 'Martel Sans', sans-serif;
+}
+
+#logo {
+    margin: 20%;
+    color: var(--light-shade);
+    font-size: 36px;
+    font-weight: 700;
+}
+
+#navbar {
+  background: var(--main-brand-colour);
+}
+
+a {
+  color: var(--light-shade);
+}
+
+.active {
+  color: var(--light-accent);
+}
+
+.light-text {
+  color: var(--light-shade);
+}
+
+.dark-bg {
+  background: var(--dark-shade);
+}
+
+.dark-text {
+  color: var(--dark-shade);
+}
+
+.lgiht-bg {
+  background: var(--light-shade);
+}
+
+section {
+  width: 100%;
+  padding: 0 5%;
+  margin: 0;
+  max-width: none;
+  background-color: var(--light-shade);
+  height: 90vh;
+  padding-top: 10vh;
+  color: var(--dark-accent);
+}
+
+section:nth-of-type(2n) {
+  background-color: var(--dark-shade);
+    color: var(--light-accent);
+}
+
+video {
+  width: 95%    !important;
+  height: auto   !important;
+}
