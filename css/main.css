@@ -17,9 +17,10 @@ body {
 }
 
 #logo {
-    margin: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
     color: var(--light-shade);
-    font-size: 36px;
+    font-size: 32px;
     font-weight: 700;
 }
 
@@ -27,11 +28,23 @@ body {
   background: var(--main-brand-colour);
 }
 
+#nbtitle {
+  font-size: 30px;
+  font-weight: 700;
+  float: left;
+  text-align: center;
+  width: 100%;
+}
+
 a {
   color: var(--light-shade);
 }
 
 .active {
+  color: var(--light-accent);
+}
+
+a:hover {
   color: var(--light-accent);
 }
 
@@ -57,17 +70,48 @@ section {
   margin: 0;
   max-width: none;
   background-color: var(--light-shade);
-  height: 90vh;
-  padding-top: 10vh;
-  color: var(--dark-accent);
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--dark-shade);
 }
 
 section:nth-of-type(2n) {
   background-color: var(--dark-shade);
-    color: var(--light-accent);
+  color: var(--light-shade);
+}
+
+section .desc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+section .desc .card {
+  padding: 2%;
+}
+
+#faq {
+  display: block;
+  padding: 3% 5%;
+}
+
+#faq div {
+  padding: 5px;
+}
+
+.question {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.answer {
+  font-style: italic;
 }
 
 video {
-  width: 95%    !important;
+  width: 100%    !important;
   height: auto   !important;
 }
