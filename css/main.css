@@ -96,7 +96,7 @@ section .desc .card {
 #faq {
   display: block;
   padding: 3% 5%;
-  height: 100vh;
+  height: 100%;
 }
 
 #faq div {
